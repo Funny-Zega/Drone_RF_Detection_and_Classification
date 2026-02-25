@@ -14,7 +14,7 @@
 **Advisor:** Vo Tuan Binh
 
 **Note:**
-- Our repository (will be made fully public after our paper is accepted): https://github.com/Mouse2204/MicroDoppler
+- Our repository (will be made fully public after our paper is accepted): https://github.com/Funny-Zega/Drone-Detection-and-Classification-by-using-RF
 - You can find the model configuration (including SiLU and Focal Loss implementations) in the `/models` folder.
 - Evaluation metrics across different SNR levels are located in the `/output` folder.
 
