@@ -83,7 +83,7 @@ Instead of using synthetic AWGN, we utilize actual RF Background activities.
 
 ### Stage 3 – Edge-Optimized Lightweight CNN
 
-![Lightweight Convolutional Neural Network architecture](path/to/your/cnn_architecture_image.png)
+![Lightweight Convolutional Neural Network architecture](Image/Confusion_Matrix_Accuracy_Detect.jpg)
 
 We designed a custom CNN from scratch, avoiding heavy backbones.
 - **Architecture:** 4 consecutive blocks of `Conv2D -> BatchNorm2d -> SiLU -> MaxPool2d`.
@@ -113,8 +113,8 @@ This repository utilizes an extended version of the publicly available DroneRF d
 Our lightweight framework was evaluated in two distinct phases, demonstrating both high-fidelity feature extraction and State-of-the-Art robustness against real RF interference:
 
 ### Phase 1: Clean Data Representation Learning (4-Class Classification)
-![Confusion Matrix Phase 1 Clean Data](Image/Confusion_Matrix_Accuracy_Detect.jpg)
-Before introducing complex noise, the model was evaluated on the original, clean DroneRF dataset to ensure it could capture the core spatial features of each specific UAV.
+![Confusion Matrix Phase 1 Clean Data](Image/Confusion_Matrix_Accuracy_Classification_Drone.png)
+- **Before introducing complex noise, the model was evaluated on the original, clean DroneRF dataset to ensure it could capture the core spatial features of each specific UAV.**
 - **Accuracy:** Achieved an outstanding **99.93% accuracy**.
 - **Classes:** Successfully differentiated between 4 categories: *Background RF activities, AR drone, Bepop drone,* and *Phantom drone* with near-zero false positives.
 - **Significance:** This proves the lightweight CNN's capability to extract perfect physical RF signatures in ideal conditions.
