@@ -112,6 +112,7 @@ This repository utilizes an extended version of the publicly available DroneRF d
 Our lightweight framework was evaluated in two distinct phases, demonstrating both high-fidelity feature extraction and State-of-the-Art robustness against real RF interference:
 
 ### Phase 1: Clean Data Representation Learning (4-Class Classification)
+![Confusion Matrix Phase 1 Clean Data](Image/Confusion_Matrix_Accuracy_.jpg)
 Before introducing complex noise, the model was evaluated on the original, clean DroneRF dataset to ensure it could capture the core spatial features of each specific UAV.
 - **Accuracy:** Achieved an outstanding **99.93% accuracy**.
 - **Classes:** Successfully differentiated between 4 categories: *Background RF activities, AR drone, Bepop drone,* and *Phantom drone* with near-zero false positives.
